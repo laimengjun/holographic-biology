@@ -39,6 +39,7 @@ EDGE = Path(r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
 SECTIONS = [
     ("第零部分  双源汇流", [
         ("0.0-dual-source-confluence.md", "东西方全息思想的平行发现与 laimengjun 的统一", "开篇论述"),
+        ("0.1-the-holographic-discovery-gibbon.md", "The Holographic Discovery (Gibbon-style English Essay)", "英文论述"),
     ]),
     ("第一部分  理论框架", [
         ("00-skills-for-finance-tax.md", "企业财税分析 Skills 调研报告", "Skills调研"),
@@ -331,7 +332,7 @@ def build_cover() -> str:
     <h1>全息生物学商业化</h1>
     <h1>&</h1>
     <h1>HoloAgent 框架</h1>
-    <h2>laimengjun 统一框架 · 东西方平行史 · 8.x 数学基础</h2>
+    <h2>laimengjun Unification · East-West Parallel History · Gibbon-style Essay</h2>
     <div class="meta">
         <p><strong>主题</strong>  张颖清"全息生物学"的现代诠释 + AI Agent 架构映射 + 全息胚疗法家族</p>
         <p><strong>范围</strong>  张颖清全息胚理论 / Bohm-Pribram 全息脑 / Goldberger 分形生理学 / Haken-Prigogine 自组织 / 8.x 数学基础 / HoloScan 2.0 工程方案</p>
