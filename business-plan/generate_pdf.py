@@ -78,6 +78,7 @@ SECTIONS = [
         ("holo_agent_v0.2_summary.md", "v0.2.6 生产化总结（含完整调试历程）", "报告"),
     ]),
     ("第四部分  数学基础系列 (8.x)", [
+        ("8.0-core-forward-inverse-framework.md", "全息生物学的基因-贝叶斯基石：正向-反向推理框架", "数学"),
         ("8.1-bayesian-gene-error-foundation.md", "贝叶斯全息理论：从基因复制到诊断精度", "数学"),
         ("8.2-dev-holographic-mapping-formation.md", "发育全息映射：从受精卵到体表对应", "数学"),
         ("8.3-bci-invasive-non-invasive-comparison.md", "BCI 精度对比：非侵入 vs 侵入", "数学"),
