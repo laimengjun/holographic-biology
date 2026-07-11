@@ -89,6 +89,7 @@ SECTIONS = [
         ("8.5-monte-carlo-simulation.md", "蒙特卡洛仿真：50 万患者精度验证", "数学"),
         ("8.6-time-series-signal-analysis.md", "时序信号与非线性动力学分析", "数学"),
         ("8.7-sensor-engineering-design.md", "传感器工程设计：HoloScan 2.0 硬件", "数学"),
+        ("8.8-four-diagnostics-holographic-interpretation.md", "四诊的全息生物学阐释：望闻问切的贝叶斯解读", "数学"),
     ]),
 ]
 
