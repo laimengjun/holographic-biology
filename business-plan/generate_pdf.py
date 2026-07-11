@@ -37,6 +37,9 @@ EDGE = Path(r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
 # 内容分组与顺序
 # ============================================================
 SECTIONS = [
+    ("第零部分  双源汇流", [
+        ("0.0-dual-source-confluence.md", "东西方全息思想的平行发现与 laimengjun 的统一", "开篇论述"),
+    ]),
     ("第一部分  理论框架", [
         ("00-skills-for-finance-tax.md", "企业财税分析 Skills 调研报告", "Skills调研"),
         ("5.0-knowledge-expansion-summary.md", "全息生物学知识扩展（5.x 系列）", "知识扩展"),
@@ -327,10 +330,10 @@ def build_cover() -> str:
     <h1>全息生物学商业化</h1>
     <h1>&</h1>
     <h1>HoloAgent 框架</h1>
-    <h2>HAIS v0.1 · 7.x 应用扩展 · HoloAgent v0.2.6</h2>
+    <h2>laimengjun 统一框架 · 东西方平行史 · 8.x 数学基础</h2>
     <div class="meta">
         <p><strong>主题</strong>  张颖清"全息生物学"的现代诠释 + AI Agent 架构映射 + 全息胚疗法家族</p>
-        <p><strong>范围</strong>  HAIS 标准 / 5.x 知识扩展 / 6.x 物理基础 / 7.x 应用扩展 / HoloAgent v0.2.6</p>
+        <p><strong>范围</strong>  张颖清全息胚理论 / Bohm-Pribram 全息脑 / Goldberger 分形生理学 / Haken-Prigogine 自组织 / 8.x 数学基础 / HoloScan 2.0 工程方案</p>
         <p><strong>文件数</strong>  25+ 个 (.md + .py, 共 ~700 KB, 17 万余字)</p>
         <p><strong>汇编日期</strong>  {today}</p>
     </div>
