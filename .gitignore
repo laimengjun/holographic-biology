@@ -1,0 +1,36 @@
+# Obsidian / 系统
+.obsidian/
+.trash/
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*~
+~*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+
+# 二进制生成物（脚本可重建）
+*.pptx
+*.wav
+*.mp3
+*.mp4
+*.mkv
+*.flac
+
+# 特定忽略（已知旧版/临时文件）
+test_unrestricted.md
+business-plan/business-plan-book - 0703.pdf
+
+# 媒体层噪音（无关视频）
+media/
+
+# IDE
+.vscode/
+.idea/
