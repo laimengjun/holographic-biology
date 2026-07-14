@@ -2,7 +2,7 @@
 
 > **方向全名**: 张颖清"生物全息律"（Holographic Biological Law / Holographic Biology, Zhang Yingqing School）
 > **创建日期**: 2026-06-30
-> **状态**: 🟢 主方向锁定（基于 4 篇 PDF 的方向重校准）
+> **状态**: 🟢 东方临床子集（为 laimengjun holo-bio 主框架提供经验基础）
 > **重要性**: 这是**中文语境**里"全息生物"的主流含义，**比西方 Holobiont/Quantum Holographic Biology 更贴近原始提问**
 
 ---

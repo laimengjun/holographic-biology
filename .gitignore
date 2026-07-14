@@ -23,13 +23,28 @@ venv/
 *.mp4
 *.mkv
 *.flac
+*.jpg
+*.png
 
-# 特定忽略（已知旧版/临时文件）
-test_unrestricted.md
-business-plan/business-plan-book - 0703.pdf
+# PDF 生成物（脚本可重建；源文件 sourcing 下的原始 PDF 除外）
+*.pdf
+!*.md
+sourcing/pdfs/
 
-# 媒体层噪音（无关视频）
-media/
+# 构建脚本/中间产物（生成工具，非项目内容）
+business-plan/_app_chapters/
+business-plan/_chapter_chunks/
+business-plan/_enriched_chunks/
+business-plan/_new_chapters/
+business-plan/*.js
+business-plan/*mega*.md
+business-plan/the-holographic-discovery-final.md
+business-plan/generate_*pdf*
+
+# Obsidian 附件
+sourcing/*.jpg
+sourcing/*.png
+sourcing/*.rtf
 
 # IDE
 .vscode/

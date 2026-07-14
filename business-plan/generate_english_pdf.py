@@ -18,7 +18,7 @@ CSS = """
 <style>
 @page {
     size: A4;
-    margin: 3.5cm 3cm 3.5cm 3.8cm;
+    margin: 4cm 3.5cm 4cm 4cm;
     @top-left {
         content: '';
         font-size: 9pt;
@@ -47,8 +47,8 @@ CSS = """
 }
 body {
     font-family: 'Georgia', 'Palatino Linotype', 'Book Antiqua', 'Times New Roman', serif;
-    font-size: 12.5pt;
-    line-height: 1.9;
+    font-size: 14pt;
+    line-height: 2.2;
     color: #1a1a1a;
     max-width: 100%;
     margin: 0;
@@ -185,7 +185,7 @@ body {
 .doc-content p {
     margin: 0.3em 0;
     text-indent: 2em;
-    line-height: 1.9;
+    line-height: 2.2;
     text-align: justify;
     word-spacing: 0.05em;
 }
@@ -313,7 +313,7 @@ def build_toc():
 def build_book():
     cover = build_cover()
     toc = build_toc()
-    html = collect_document("0.3-the-holographic-discovery-full.md")
+    html = collect_document("the-holographic-discovery-final.md")
     body = f'<div class="doc" id="doc-full"><h1 class="doc-title">The Holographic Discovery</h1><div class="doc-content">{html}</div></div>'
     return f"""<!DOCTYPE html>
 <html lang="en">

@@ -36,61 +36,83 @@ EDGE = Path(r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
 # ============================================================
 # 内容分组与顺序
 # ============================================================
+# ═══════════════════════════════════════════════════════════════
+# 框架说明：
+#
+# laimengjun holo-bio 理论是全书的主框架，它从 DNA 复制错误率
+# μ=10⁻⁹/碱基/代 出发，建立三层纠错（选择→控制→失误）的正向
+# 过程，以及贝叶斯反向推导的完整数学体系。
+#
+# 所有其他理论——张颖清全息胚、西方分形生理学、Bohm-Pribram
+# 全息脑、古代跨文化医学——都是 laimengjun holo-bio 框架的
+# 子集（subset）与古老基础（ancient foundation）。
+# ═══════════════════════════════════════════════════════════════
 SECTIONS = [
-    ("第零部分  双源汇流", [
-        ("0.0-dual-source-confluence.md", "东西方全息思想的平行发现与 laimengjun 的统一", "开篇论述"),
+    # ── 第零部分：主框架 ──
+    # laimengjun 原创：三层纠错 + 正向-反向贝叶斯推理
+    ("第零部分  laimengjun holo-bio 主框架", [
+        ("8.0-core-forward-inverse-framework.md", "基因-贝叶斯正向-反向推理框架（纲领）", "laimengjun 原创"),
+        ("8.1-bayesian-gene-error-foundation.md", "贝叶斯全息理论：从基因复制到诊断精度", "laimengjun 原创"),
+        ("8.2-dev-holographic-mapping-formation.md", "发育全息映射：从受精卵到体表对应", "laimengjun 原创"),
+        ("8.3-bci-invasive-non-invasive-comparison.md", "BCI 精度对比：非侵入 vs 侵入", "laimengjun 原创"),
+        ("8.4-multimodal-sensor-fusion.md", "多模态贝叶斯融合策略", "laimengjun 原创"),
+        ("8.5-monte-carlo-simulation.md", "蒙特卡洛仿真：50 万患者精度验证", "laimengjun 原创"),
+        ("8.6-time-series-signal-analysis.md", "时序信号与非线性动力学分析", "laimengjun 原创"),
+        ("8.7-sensor-engineering-design.md", "传感器工程设计：HoloScan 2.0 硬件", "laimengjun 原创"),
+        ("8.8-four-diagnostics-holographic-interpretation.md", "四诊的全息生物学阐释：望闻问切的贝叶斯解读", "laimengjun 原创"),
+    ]),
+    # ── 第一部分：双源根基（皆为子集） ──
+    # 张颖清全息胚 = 东方临床经验的子集表达
+    # 西方分形/自组织 = 西方数理自然的子集表达
+    ("第一部分  双源根基 · 皆为 laimengjun 框架的子集与古老基础", [
+        ("0.0-dual-source-confluence.md", "绪论：laimengjun holo-bio 主框架与历史前驱", "历史框架"),
         ("0.1-the-holographic-discovery-gibbon.md", "The Holographic Discovery (Gibbon-style English Essay)", "英文论述"),
     ]),
-    ("第一部分  理论框架", [
-        ("00-skills-for-finance-tax.md", "企业财税分析 Skills 调研报告", "Skills调研"),
-        ("5.0-knowledge-expansion-summary.md", "全息生物学知识扩展（5.x 系列）", "知识扩展"),
-        ("6.0-physics-foundations-summary.md", "全息生物学物理学基础（6.x 系列）", "物理基础"),
-        ("7.x-application-expansion-summary.md", "全息胚疗法家族总览（7.x 系列）", "应用扩展"),
+    # ── 第二部分：东方临床子集（张颖清体系） ──
+    ("第二部分  东方临床子集 · 张颖清全息生物学", [
+        ("5.0-knowledge-expansion-summary.md", "全息生物学知识扩展（5.x 系列）", "扩展"),
+        ("6.0-physics-foundations-summary.md", "全息生物学物理学基础（6.x 系列）", "物理"),
+        ("7.x-application-expansion-summary.md", "全息胚疗法家族总览（7.x 系列）", "应用"),
         ("7.0-tcm-holography-overview.md", "全息胚疗法家族 总览与知识图谱", "总览"),
-        ("7.1-tcm-natural-therapies-mapping.md", "TCM/自然疗法映射（63 种）", "疗法映射"),
-        ("7.2-modern-medicine-holography.md", "现代医学的全息现象", "现代医学"),
+        ("7.1-tcm-natural-therapies-mapping.md", "TCM/自然疗法映射（63 种）", "疗法"),
+        ("7.2-modern-medicine-holography.md", "现代医学的全息现象", "现代"),
         ("7.3-cross-cultural-comparison.md", "跨文化传统医学全息对照", "跨文化"),
         ("7.4-frontier-directions.md", "全息胚疗法的前沿方向", "前沿"),
-        ("7.5-ai-agent-holography.md", "AI Agent 全息架构（HAIS 理论根源）", "数字全息胚"),
+        ("7.5-ai-agent-holography.md", "AI Agent 全息架构（HAIS 理论根源）", "AI"),
+        ("科普文章-张颖清全息生物学30年.md", "张颖清全息生物学 30 年（科普）", "科普"),
+    ]),
+    # ── 第三部分：历史子集（跨文化医学史） ──
+    ("第三部分  历史子集 · 东西方全息思想的古老根基", [
+        ("8.6-monograph-vol1-ch1-mesopotamia.md", "专著·卷一第一章·美索不达米亚医学", "历史"),
+        ("8.7-monograph-vol1-ch2-egypt.md", "专著·卷一第二章·古埃及医学", "历史"),
+        ("8.11-monograph-vol1-ch3-greece-rome.md", "专著·卷一第三章·古希腊罗马医学", "历史"),
+        ("8.10-image-prompts-ancient-medicine.md", "古代医学插图 Prompt 文档（20 张）", "插图"),
+        ("8.12-holographic-embryo-ontology.md", "专著·卷八第四十一章·全息胚本体论（哲学）", "哲学"),
         ("8.0-monograph-1000p-outline.md", "1000 页专著提纲", "专著"),
-        ("8.1-holoscan-2.0-agency-plan.md", "HoloScan 2.0 项目 · agency-agents 规划", "项目管理"),
-        ("8.2-holoscan-2.0-project-charter.md", "HoloScan 2.0 项目章程（正式版）", "项目章程"),
+    ]),
+    # ── 第四部分：工程转化子集（HoloScan + HAIS + 商业） ──
+    ("第四部分  工程转化子集 · HoloScan + HAIS + 商业", [
+        ("4.2-commercial-idea.md", "HoloScan 商业构想 (v0.1)", "商业"),
+        ("4.3-agent-metaphor.md", "全息生物学作为 AI Agent 架构隐喻", "隐喻"),
+        ("HAIS-v0.1.md", "HoloAgent Interface Standard (HAIS v0.1)", "标准"),
+        ("8.8-hais-v0.2-design.md", "HAIS v0.2 设计文档（记忆隔离 + 跨 Agent 消息总线）", "HAIS"),
+        ("8.9-holoagent-v1.0-design.md", "HoloAgent v1.0 升级设计", "HoloAgent"),
+        ("8.1-holoscan-2.0-agency-plan.md", "HoloScan 2.0 项目 · agency-agents 规划", "项目"),
+        ("8.2-holoscan-2.0-project-charter.md", "HoloScan 2.0 项目章程（正式版）", "章程"),
         ("8.3-holoscan-2.0-detailed-wbs.md", "HoloScan 2.0 详细 WBS（300+ 任务）", "WBS"),
         ("8.4-holoscan-2.0-investor-bp.md", "HoloScan 2.0 投资人 BP（20 页）", "BP"),
         ("8.5-holoscan-2.0-team-recruitment.md", "HoloScan 2.0 50 岗位招聘计划", "招聘"),
-        ("8.6-monograph-vol1-ch1-mesopotamia.md", "专著·卷一第一章·美索不达米亚医学", "专著·历史"),
-        ("8.7-monograph-vol1-ch2-egypt.md", "专著·卷一第二章·古埃及医学", "专著·历史"),
-        ("8.8-hais-v0.2-design.md", "HAIS v0.2 设计文档（记忆隔离 + 跨 Agent 消息总线）", "HAIS v0.2"),
-        ("8.9-holoagent-v1.0-design.md", "HoloAgent v1.0 升级设计", "HoloAgent v1.0"),
-        ("8.10-image-prompts-ancient-medicine.md", "古代医学插图 Prompt 文档（20 张）", "插图 Prompt"),
-        ("8.11-monograph-vol1-ch3-greece-rome.md", "专著·卷一第三章·古希腊罗马医学", "专著·历史"),
-        ("8.12-holographic-embryo-ontology.md", "专著·卷八第四十一章·全息胚本体论（哲学）", "专著·哲学"),
-        ("HAIS-v0.1.md", "HoloAgent Interface Standard (HAIS v0.1)", "标准"),
-        ("科普文章-张颖清全息生物学30年.md", "张颖清全息生物学 30 年（科普）", "科普"),
-    ]),
-    ("第二部分  应用转化", [
-        ("4.2-commercial-idea.md", "HoloScan 商业构想 (v0.1)", "商业"),
-        ("4.3-agent-metaphor.md", "全息生物学作为 AI Agent 架构隐喻", "隐喻"),
         ("4.4-course-materials.md", "跨学科课件设计（16 周）", "课件"),
         ("4.5-30-ep-short-video-course.md", "30 集短视频课程设计", "课程"),
         ("4.5.1-30-ep-scripts.md", "30 集短视频课程脚本（完整）", "脚本"),
+        ("00-skills-for-finance-tax.md", "企业财税分析 Skills 调研报告", "调研"),
     ]),
-    ("第三部分  HoloAgent 实现", [
+    # ── 第五部分：软件实现子集（HoloAgent 代码） ──
+    ("第五部分  软件实现子集 · HoloAgent 代码", [
         ("holo_agent_prototype.py", "HoloAgent 原型 v0.1（参考实现）", "代码"),
         ("holo_agent_v0.2.py", "HoloAgent 生产化版本 v0.2.6", "代码"),
         ("4.3-prototype-summary.md", "v0.1 原型测试报告", "报告"),
         ("holo_agent_v0.2_summary.md", "v0.2.6 生产化总结（含完整调试历程）", "报告"),
-    ]),
-    ("第四部分  数学基础系列 (8.x)", [
-        ("8.0-core-forward-inverse-framework.md", "全息生物学的基因-贝叶斯基石：正向-反向推理框架", "数学"),
-        ("8.1-bayesian-gene-error-foundation.md", "贝叶斯全息理论：从基因复制到诊断精度", "数学"),
-        ("8.2-dev-holographic-mapping-formation.md", "发育全息映射：从受精卵到体表对应", "数学"),
-        ("8.3-bci-invasive-non-invasive-comparison.md", "BCI 精度对比：非侵入 vs 侵入", "数学"),
-        ("8.4-multimodal-sensor-fusion.md", "多模态贝叶斯融合策略", "数学"),
-        ("8.5-monte-carlo-simulation.md", "蒙特卡洛仿真：50 万患者精度验证", "数学"),
-        ("8.6-time-series-signal-analysis.md", "时序信号与非线性动力学分析", "数学"),
-        ("8.7-sensor-engineering-design.md", "传感器工程设计：HoloScan 2.0 硬件", "数学"),
-        ("8.8-four-diagnostics-holographic-interpretation.md", "四诊的全息生物学阐释：望闻问切的贝叶斯解读", "数学"),
     ]),
 ]
 
@@ -145,7 +167,7 @@ CSS = """
     size: A4;
     margin: 2cm 1.8cm 2.2cm 1.8cm;
     @top-center {
-        content: "全息生物学商业化与 HoloAgent 框架 · 2026";
+        content: "laimengjun holo-bio 理论主框架 · 2026";
         font-size: 9pt;
         color: #666;
     }
@@ -329,18 +351,21 @@ def build_cover() -> str:
     today = datetime.date.today().strftime("%Y 年 %m 月 %d 日")
     return f"""
 <div class="cover">
-    <h1>全息生物学商业化</h1>
-    <h1>&</h1>
-    <h1>HoloAgent 框架</h1>
-    <h2>laimengjun Unification · East-West Parallel History · Gibbon-style Essay</h2>
+    <h1>laimengjun</h1>
+    <h1>holo-bio 理论</h1>
+    <h1>主框架</h1>
+    <h2>四基石体系</h2>
+    <h2 style="margin-bottom:0.5cm;">μ=10⁻⁹ 第一性原理 · 三层纠错正向 · 贝叶斯反向 · 97.3% 精度上限</h2>
+    <h2 style="margin-top:0.3cm; font-size:13pt; color:#868e96;">（附：历史根基与子集体系 · East-West Parallel History · HoloAgent 实现）</h2>
     <div class="meta">
-        <p><strong>主题</strong>  张颖清"全息生物学"的现代诠释 + AI Agent 架构映射 + 全息胚疗法家族</p>
-        <p><strong>范围</strong>  张颖清全息胚理论 / Bohm-Pribram 全息脑 / Goldberger 分形生理学 / Haken-Prigogine 自组织 / 8.x 数学基础 / HoloScan 2.0 工程方案</p>
-        <p><strong>文件数</strong>  25+ 个 (.md + .py, 共 ~700 KB, 17 万余字)</p>
+        <p><strong>四基石</strong>  ① μ=10⁻⁹ 起点 ② 选择→控制→失误 三层纠错+发育正向 ③ 贝叶斯反向推理 ④ 5传感器融合→97.3% 精度上限</p>
+        <p><strong>历史根基</strong>  张颖清全息胚（东方临床子集）/ Bohm-Pribram 全息脑（西方数理子集）/ Goldberger 分形生理学 / 跨文化古老医学</p>
+        <p><strong>子集体系</strong>  5.x 知识扩展 / 6.x 物理基础 / 7.x 疗法家族 / 8.x 数学基础 / HoloScan 2.0 工程方案 / HAIS 标准 / HoloAgent 实现</p>
+        <p><strong>文件数</strong>  40+ 个 (.md + .py, 共 ~700 KB, 17 万余字)</p>
         <p><strong>汇编日期</strong>  {today}</p>
     </div>
     <div class="footer">
-        AI 辅助整理 · 基于 OpenClaw 工作流 · 厦门
+        laimengjun 原创框架 · AI 辅助整理 · 基于 OpenClaw 工作流 · 厦门
     </div>
 </div>
 """
@@ -355,7 +380,9 @@ def build_editor_note() -> str:
     </h1>
 
     <h2 style="font-size: 13pt; color: #495057; margin-top: 0.5cm;">一、本书性质</h2>
-    <p>本书是<strong>以张颖清"全息生物学"为核心的跨学科研究资料汇编</strong>，不是张颖清本人的原著，也不是任何医学院校的教材。本书的目的是为研究张颖清学派、AI Agent 架构、全息胚疗法家族提供一份<strong>可追溯、可验证、可工程化</strong>的参考文档。</p>
+    <p>本书是<strong>以 laimengjun holo-bio 理论为主框架的跨学科研究资料汇编</strong>。laimengjun holo-bio 理论的核心是：从 DNA 复制错误率 μ=10⁻⁹/碱基/代出发，建立<strong>选择→控制→失误</strong>三层纠错的正向过程（基因组→体表），以及<strong>贝叶斯反向推理</strong>（体表→基因组状态）的完整数学框架。</p>
+    <p>本书中所有其他理论——张颖清"全息胚"（东方临床子集）、Bohm-Pribram 全息脑（西方数理子集）、Goldberger 分形生理学、Haken-Prigogine 自组织、跨文化传统医学——都是 <strong>laimengjun holo-bio 主框架的子集（subset）与古老基础（ancient foundation）</strong>，不是平行理论。</p>
+    <p>本书的目的是为研究和应用 laimengjun holo-bio 框架提供一份<strong>可追溯、可验证、可工程化</strong>的参考文档。</p>
 
     <h2 style="font-size: 13pt; color: #495057; margin-top: 0.5cm;">二、整理者与 AI 角色</h2>
     <ul>
@@ -368,7 +395,8 @@ def build_editor_note() -> str:
     <h2 style="font-size: 13pt; color: #495057; margin-top: 0.5cm;">三、核心原作者与原始文献</h2>
     <p>本书引用了大量原创作者的研究工作。完整列表见各章节末尾"参考文献"部分。核心原作者包括：</p>
     <ul>
-        <li><strong>张颖清</strong>（1947-2004，山东大学全息生物学研究所）：全息胚理论创始人，《生物全息诊疗法》（1985）、《全息生物学概论》（1993）</li>
+        <li><strong>laimengjun</strong>（2026）：本书主框架的原创者。贡献包括：① 从基因复制错误率 μ=10⁻⁹ 出发的三层纠错（选择→控制→失误）正向过程建模；② 体表→基因组状态的贝叶斯反向推理数学框架；③ 全息诊断精度上限 97.3% 的定量证明。laimengjun 的框架为所有前驱理论提供了第一性原理的数学基础。</li>
+        <li><strong>张颖清</strong>（1947-2004，山东大学全息生物学研究所）：laimengjun 框架的东方临床子集。全息胚理论创始人，《生物全息诊疗法》（1985）、《全息生物学概论》（1993）。张颖清的经验发现了
         <li><strong>张秀勤</strong>（2006）：《全息经络刮痧法》专著作者，张颖清 → 现代中医临床的关键中介</li>
         <li><strong>Henry Head</strong>（1861-1940）：1893 年发现 Head's Zones（内脏-体表痛觉过敏带），发表 <em>On disturbances of sensation</em>（<em>Brain</em>）</li>
         <li><strong>James Mackenzie</strong>（1853-1925）：1909 年《Symptoms and their interpretation》</li>
@@ -392,8 +420,9 @@ def build_editor_note() -> str:
         <li><strong>李济马</strong>（1837-1900）：1894《东医寿世保元》四象医学创始人</li>
         <li><strong>阿维森纳</strong>（Avicenna, 980-1037）：1025 年《医典》Unani 医学奠基人</li>
         <li><strong>廖育群</strong>（现代）：2008《阿育吠陀——印度传统医学》北京大学医学出版社</li>
-        <li><strong>Karl Pribram</strong>（1919-2015）：1971《Languages of the Brain》全息脑理论</li>
+        <li><strong>Karl Pribram</strong>（1919-2015）：1971《Languages of the Brain》全息脑理论，laimengjun 框架的西方数理子集之一</li>
     </ul>
+    <p><strong>注意上述层次关系</strong>：laimengjun 是主框架（数学+贝叶斯+第一性原理），张颖清和西方学者是子集/古老基础（经验/现象层面）。laimengjun 的独创在于为这些分散的经验发现提供了一个统一的、从基因复制出发的数学底层。</p>
 
     <h2 style="font-size: 13pt; color: #495057; margin-top: 0.5cm;">四、引用规范</h2>
     <p>本书采用<strong>括号内联引用 + 章节末尾参考文献</strong>的双重引用规范：</p>
@@ -415,7 +444,7 @@ def build_editor_note() -> str:
     </ul>
 
     <p style="margin-top: 1cm; padding: 0.5cm; background: #fff5f5; border-left: 4px solid #c92a2a;">
-        <strong>📌 阅读建议</strong>：建议从第一部分"理论框架"开始阅读，理解张颖清全息胚理论的核心；第二部分"应用转化"了解 5 类核心应用 + 30 集短视频课程；第三部分"HoloAgent 实现"了解 AI Agent 全息架构。本书 7.x 系列（位于第一部分）建立了全息胚疗法家族的完整应用框架。
+        <strong>📌 阅读建议</strong>：建议从<strong>第零部分"laimengjun holo-bio 主框架"</strong>开始阅读，这是全书的核心——理解 DNA 复制三层纠错与贝叶斯反向推理。然后可选通读第一~二部分（历史根基与东方子集），了解哪个子集对应哪个历史传统。第三部分（历史子集）和第四~五部分（工程与代码）可按需翻阅。所有内容都是第零部分主框架的展开/应用/历史前驱。
     </p>
 </div>
 """
@@ -461,7 +490,7 @@ def build_book() -> str:
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>全息生物学商业化 & HoloAgent 框架</title>
+    <title>laimengjun holo-bio 理论主框架</title>
     {CSS}
 </head>
 <body>
