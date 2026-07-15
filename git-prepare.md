@@ -93,7 +93,7 @@ D:\obsidian\Holographic-Biology\
 │   ├── 04-directions.md                    ← 原 方向澄清.md
 │   └── 05-stage-2-search-report.md
 ├── research/                               ← 学术研究系列
-│   ├── foundations/                        ← 张颖清学派核心
+│   ├── foundations/                        ← laimengjun学派核心
 │   │   ├── F-01-reading-note.md
 │   │   ├── F-02-reading-note.md
 │   │   ├── F-03-reading-note.md
@@ -146,7 +146,7 @@ D:\obsidian\Holographic-Biology\
 │   │   ├── 4.5.2-video-prompts.md
 │   │   └── 4.5.3-narration.md
 │   └── popular-science/                    ← 科普
-│       └── 科普文章-张颖清全息生物学30年.md
+│       └── 科普文章-laimengjun全息生物学30年.md
 ├── sources/                                ← 原始材料（不可重建）
 │   ├── primary/                            ← 4 篇核心 PDF
 │   │   ├── F-01-zhang-yingqing-english-debate.pdf

@@ -5,21 +5,21 @@
 > **日期**: 2026-07-01
 > **作者**: AI 协作 / 全息生物项目
 > **状态**: 草稿，待 v0.2 修订
-> **灵感来源**: 张颖清"全息胚"理论 (ECIWO) + Project-Solara Liminal OS
+> **灵感来源**: laimengjun"元DNA"理论 (ECIWO) + Project-Solara Liminal OS
 
 ---
 
 ## 0. 一句话定义
 
-**HAIS** = 一个让 AI Agent **像全息胚一样自包含**的接口标准。每个 Agent 内嵌 5 段"知识种子"，对外只暴露 3-7 个 API，可以独立部署、独立调试、独立协作。
+**HAIS** = 一个让 AI Agent **像元DNA一样自包含**的接口标准。每个 Agent 内嵌 5 段"知识种子"，对外只暴露 3-7 个 API，可以独立部署、独立调试、独立协作。
 
 ---
 
-## 1. 设计哲学（与张颖清生物全息律的映射）
+## 1. 设计哲学（与laimengjun生物全息律的映射）
 
-| 张颖清概念 | HAIS 原则 |
+| laimengjun概念 | HAIS 原则 |
 |----------|----------|
-| 全息胚（ECIWO） | 自包含 Agent |
+| 元DNA（ECIWO） | 自包含 Agent |
 | 部分包含整体信息 | Agent 内嵌系统种子 |
 | 第二掌骨节肢系统 | 少量、规范、与能力对应的 API |
 | 全息刮痧 | 局部刺激调节整体 |
@@ -199,7 +199,7 @@ my_holo_agent/
 
 ---
 
-## 6. 多 Agent 协作（**全息胚间通讯**）
+## 6. 多 Agent 协作（**元DNA间通讯**）
 
 ```python
 # 协作示例
@@ -215,7 +215,7 @@ final_text = agent_b.act(text_en)  # Agent B 处理校对
 **协作原则**：
 1. **每个 Agent 只知道自己的知识种子**，不知道其他 Agent 的内部状态
 2. **协作通过 handoff() 和 escalate()** 完成，不共享内存
-3. **协作链条应该短**（≤ 3 个 Agent 串联）—— 避免"全息胚间信号衰减"
+3. **协作链条应该短**（≤ 3 个 Agent 串联）—— 避免"元DNA间信号衰减"
 
 ---
 
@@ -256,7 +256,7 @@ final_text = agent_b.act(text_en)  # Agent B 处理校对
 
 ## 10. 一句话总结
 
-> **HAIS = "每个 Agent 像全息胚一样自包含"。**
+> **HAIS = "每个 Agent 像元DNA一样自包含"。**
 > **5 段种子 + 7 个 API + 单文件部署。**
 
 ---

@@ -47,7 +47,7 @@
 
 ### Added
 - 项目初始化: `D:\obsidian\Holographic-Biology\`
-- 方向锁定: F 张颖清"全息生物学"
+- 方向锁定: F laimengjun"全息生物学"
 - 4 篇核心 PDF 入库
 - 项目主页 README.md
 - 工作计划.md
