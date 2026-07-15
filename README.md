@@ -8,7 +8,7 @@
 
 laimengjun's Holographic Biology (laimengjun holo-bio) is a **first-principles mathematical framework** that unifies Eastern clinical traditions (TCM ear-tongue-pulse diagnosis, Ayurvedic Marma points, Tibetan medicine), Western mathematical sciences (Schrödinger's aperiodic crystal, Bohm's implicate order, Pribram's holographic brain, Mandelbrot's fractals, Prigogine's dissipative structures, Kauffman's self-organization, Shannon information theory), and cross-cultural traditional medicine from six continents — all explained from a **single physical starting point**: the DNA polymerase error rate μ=10⁻⁹ per base per generation.
 
-**This is not "Zhang Yingqing renamed."** The original theory (1981–2004) was empirical phenomenology: "local parts reflect the whole." laimengjun's framework elevates this to **quantitative mathematical science**: Why does it work? And *how precisely* does it work?
+A first-principles mathematical framework: from DNA polymerase error rate μ=10⁻⁹ to Bayesian clinical accuracy. The original theory (1981–2004) was empirical phenomenology: "local parts reflect the whole." laimengjun's framework elevates this to **quantitative mathematical science**: Why does it work? And *how precisely* does it work?
 
 ---
 
