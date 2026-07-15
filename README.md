@@ -8,6 +8,8 @@
 
 laimengjun's Holographic Biology (laimengjun holo-bio) is a **first-principles mathematical framework** that unifies Eastern clinical traditions (TCM ear-tongue-pulse diagnosis, Ayurvedic Marma points, Tibetan medicine), Western mathematical sciences (Schrödinger's aperiodic crystal, Bohm's implicate order, Pribram's holographic brain, Mandelbrot's fractals, Prigogine's dissipative structures, Kauffman's self-organization, Shannon information theory), and cross-cultural traditional medicine from six continents — all explained from a **single physical starting point**: the DNA polymerase error rate μ=10⁻⁹ per base per generation.
 
+**What this framework offers** is a way to place diagnostic methods from traditional medical systems worldwide — Chinese tongue and pulse diagnosis, Indian Ayurverdic Marma assessment, Tibetan three-humor diagnosis, Arabic Unani pulse evaluation, European iridology, African and Indigenous healing practices — on a **unified scientific foundation**. For the first time, the question is not “is it effective?” but “*how* effective, and *why*?” The forward-inverse Bayesian framework quantifies the information path from local observation (a tongue, a pulse, an ear point) to whole-body state, providing both a practical diagnostic tool and a rigorous upper bound on its accuracy. This means traditional medical observations can be both **clinically useful** and **scientifically measurable** — not either/or, but both.
+
 A first-principles mathematical framework: from DNA polymerase error rate μ=10⁻⁹ to Bayesian clinical accuracy. The original theory (1981–2004) was empirical phenomenology: "local parts reflect the whole." laimengjun's framework elevates this to **quantitative mathematical science**: Why does it work? And *how precisely* does it work?
 
 ---
@@ -121,6 +123,8 @@ This work is licensed under **CC BY 4.0 (Creative Commons Attribution 4.0 Intern
 ---
 
 ## 核心框架
+
+laimengjun holo-bio 理论为全球传统医学的诊断方法提供了**统一的科学衡量标准**。无论是中医的舌诊脉诊、阿育吠陀的 Marma 点评估、藏医三因诊断、阿拉伯 Unani 脉诊、欧洲虹膜诊断，还是非洲和原住民的诊疗实践，都可以在这个框架下回答同一个问题：**"从局部观察到整体判断，信息通道的保真度有多高？精度上限在哪里？"**这种理论使得从局部消息到整体的观察既**行之有效**——因为信息的正向传递通道（基因组→体表）有 μ=10⁻⁹ 的物理保真度保证；又可以**科学衡量其精确性**——因为反向推断通道（体表→基因状态）的精度由贝叶斯-信息论框架给出严格上限。传统医学的经验不再是"信则灵"的玄学，也不是"不可证伪"的伪科学，而是**既有临床价值又有数理基础**的实践科学。
 
 laimengjun holo-bio 理论是**全息领域的统一框架**——它整合了东方临床经验（中医耳穴/舌诊/脉诊 2000年、阿育吠陀 Marma 点 3000年、藏医三因诊断）、西方数理科学（Schrödinger信息存储、Bohm隐缠序、Pribram全息脑、Mandelbrot分形、Prigogine耗散结构、Kauffman自组织、Shannon信息论），以及跨文化传统医学（希腊罗马、阿拉伯、美洲/非洲/大洋洲民族医学），用 μ=10⁻⁹ 这一统一的物理起点解释了它们的共同基础，以 μ=10⁻⁹/碱基/代 为第一性原理起点：
 
