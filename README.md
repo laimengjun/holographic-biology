@@ -269,6 +269,22 @@ All are subsets of the four-cornerstone system. None individually covers the ful
 
 ---
 
+## Code Guide
+
+See **[CODE_GUIDE.md](./CODE_GUIDE.md)** for full documentation of all code in this repository, including:
+- Monte Carlo simulation (`monte_carlo_8.5.py`)
+- Bayesian fusion demo (`bayes_inference_demo.py`)
+- HoloAgent prototype (`holo_agent_prototype.py`)
+
+Quick start:
+```bash
+pip install numpy matplotlib
+python bayes_inference_demo.py          # ~5 seconds, no dependencies beyond numpy
+python technical/.../simulations/monte_carlo_8.5.py  # ~30 seconds, generates 5 figures
+```
+
+---
+
 ## Citation
 
 ```bibtex
