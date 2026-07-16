@@ -4,6 +4,37 @@
 
 ---
 
+## Origin Story / 项目由来
+
+This project began with a simple observation from **two corners of science**:
+
+1. **Laser holography** (Dennis Gabor, 1948): A holographic photograph has a magical property — **cut any piece off, and that piece still reconstructs the entire image**. Each fragment contains the whole. This is because holographic encoding distributes information globally across the recording medium.
+
+2. **DNA replication** (Watson & Crick, 1953; Meselson-Stahl, 1958): Every cell in your body — from tongue epithelium to ear cartilage to the skin on your second metacarpal — carries **a complete copy of your genome**. DNA replication achieves near-perfect fidelity (μ=10⁻⁹ errors/base/generation) through a three-layer error correction system.
+
+**The insight**: If every cell has the full genetic blueprint (DNA's information-preserving property), and holograms show that a local piece can encode the whole (holography's information-distributing property), then **every local region of the human body should carry information about the whole body**. Traditional Chinese medicine has operated on this principle for 3,000 years — tongue diagnosis, pulse diagnosis, ear acupuncture, foot reflexology all assume "local reflects whole."
+
+This project asks: **Can we prove it mathematically? Can we quantify how much information a body-surface signal carries about internal organ state? And can we compute the theoretical accuracy ceiling?**
+
+The answer turned out to be **yes** — and the number is **97.3%**.
+
+---
+
+## Purpose / 目的与作用
+
+This framework serves **four purposes**:
+
+| Purpose | Description |
+|---------|-------------|
+| **1. Theoretical unification** | Provides the first mathematical chain connecting molecular biology (μ=10⁻⁹) to clinical diagnosis accuracy (97.3%), unifying Eastern traditional medicine and Western information science under one formal framework |
+| **2. Falsifiable predictions** | Generates specific, testable numeric predictions (97.3% accuracy, 5-sensor saturation, <2% degradation from mutations) that can be confirmed or refuted by experiment |
+| **3. Engineering blueprint** | Defines the design parameters for HoloScan 2.0 — a multimodal diagnostic device combining tongue/pulse/ear/palm/face sensors with Bayesian fusion (BOM < ¥5000) |
+| **4. Common language** | Gives TCM practitioners and molecular biologists a shared vocabulary — "Bayesian information channel," "mutual information bits," "posterior probability" — enabling cross-disciplinary collaboration |
+
+**What this project is NOT**: It is not a clinical trial, not a medical device, and not a claim that TCM is "proven." It is a **research program** — like Wegener's continental drift hypothesis before plate tectonics was confirmed. It provides the mathematical scaffolding; the experimental validation is the next step.
+
+---
+
 ## What is this?
 
 A mathematical framework claiming that every cell's DNA contains whole-body information — and that traditional diagnostics (tongue, pulse, ear acupuncture points) are actually **Bayesian information channels** reading that information from the body surface.
