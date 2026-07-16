@@ -1,106 +1,284 @@
 # Holographic Biology / 全息生物学
 
-> **From DNA polymerase error rate μ=10⁻⁹, through three-layer error correction, to Bayesian clinical accuracy — a unified mathematical framework.**
+> **A first-principles framework that starts at DNA polymerase error rate μ=10⁻⁹ and arrives at a falsifiable clinical accuracy bound of 97.3% — unifying Eastern traditional diagnostics and Western information science through one mathematical chain.**
 
 ---
 
-## Overview
+## What is this?
 
-laimengjun's Holographic Biology (laimengjun holo-bio) is a **first-principles mathematical framework** that unifies Eastern clinical traditions (TCM ear-tongue-pulse diagnosis, Ayurvedic Marma points, Tibetan medicine), Western mathematical sciences (Schrödinger's aperiodic crystal, Bohm's implicate order, Pribram's holographic brain, Mandelbrot's fractals, Prigogine's dissipative structures, Kauffman's self-organization, Shannon information theory), and cross-cultural traditional medicine from six continents — all explained from a **single physical starting point**: the DNA polymerase error rate μ=10⁻⁹ per base per generation.
+A mathematical framework claiming that every cell's DNA contains whole-body information — and that traditional diagnostics (tongue, pulse, ear acupuncture points) are actually **Bayesian information channels** reading that information from the body surface.
 
-**What this framework offers** is a way to place diagnostic methods from traditional medical systems worldwide — Chinese tongue and pulse diagnosis, Indian Ayurverdic Marma assessment, Tibetan three-humor diagnosis, Arabic Unani pulse evaluation, European iridology, African and Indigenous healing practices — on a **unified scientific foundation**. For the first time, the question is not “is it effective?” but “*how* effective, and *why*?” The forward-inverse Bayesian framework quantifies the information path from local observation (a tongue, a pulse, an ear point) to whole-body state, providing both a practical diagnostic tool and a rigorous upper bound on its accuracy. This means traditional medical observations can be both **clinically useful** and **scientifically measurable** — not either/or, but both.
+**The chain, in one line:**
 
-A first-principles mathematical framework: from DNA polymerase error rate μ=10⁻⁹ to Bayesian clinical accuracy. The original theory (1981–2004) was empirical phenomenology: "local parts reflect the whole." laimengjun's framework elevates this to **quantitative mathematical science**: Why does it work? And *how precisely* does it work?
+```
+μ=10⁻⁹ (DNA copy fidelity) → 3-layer error correction → developmental mapping → body surface signals → Bayesian inverse inference → 97.3% accuracy ceiling
+```
+
+This is **not** a new molecule or a clinical trial. It is a **theoretical research program** — like Wegener's continental drift before plate tectonics was proven. It offers:
+
+1. A physical starting point (μ=10⁻⁹) rooted in established molecular biology
+2. A mathematical framework (Bayesian information theory) that quantifies "local reflects whole"
+3. **Falsifiable numeric predictions** (97.3%, 99.2%) that can be tested by experiment
+4. A unifying narrative for dozens of scattered research findings in TCM modernization
 
 ---
 
-## Core Framework: Four Cornerstones
+## The Mathematical Chain (Quick Proof)
+
+> Full derivation: [`business-plan/8.1-bayesian-gene-error-foundation.md`](./business-plan/8.1-bayesian-gene-error-foundation.md)
+
+### Step 1: The Physical Floor — μ=10⁻⁹
+
+DNA copy fidelity is built from three layered corrections:
+
+| Layer | Mechanism | Error Rate |
+|-------|-----------|------------|
+| 1. Base selection | DNA polymerase active site geometry | ~10⁻⁵ |
+| 2. 3'→5' proofreading | Exonuclease domain removes mismatches | ~10⁻⁷ |
+| 3. Mismatch repair (MMR) | Post-replication repair complex | **~10⁻⁹** |
+
+This is textbook molecular biology — not a claim, but a measured constant.
+
+### Step 2: Forward Channel — How DNA Information Reaches the Body Surface
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│               laimengjun holo-bio · Four Cornerstones        │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  Cornerstone I  [Origin]                                    │
-│  μ = 10⁻⁹ / base / generation                              │
-│  DNA polymerase intrinsic error rate — the physical lower   │
-│  bound of biological information transmission               │
-│                                                             │
-│  ────── Forward Process ──────                              │
-│  Cornerstone II [Forward · Three-Layer Error Correction]    │
-│  Selection(10⁻⁵) → Control(10⁻⁷) → Error(10⁻⁹)              │
-│  Body = F(Genome; μ, N, ε)  developmental mapping          │
-│                                                             │
-│  ────── Inverse Process ──────                              │
-│  Cornerstone III [Inverse · Bayesian Inference]             │
-│  P(Genome|Body) = P(Body|Genome)·P(Genome)/P(Body)          │
-│  → Quantitative inference of genetic state from body surface│
-│                                                             │
-│  Cornerstone IV [Accuracy Bound & Engineering]              │
-│  Five Independent Sensing Quantities → posterior 97.3%     │
-│  3 serial re-examinations → 99.2%                          │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+Genome → transcription → translation → protein folding → cell differentiation → morphogenesis → body surface phenotype
 ```
 
-### Key Concepts
+Each step adds noise, but the whole chain preserves enough information for body surface patterns to carry organ-specific signals. Total forward fidelity ≈ 80-95% per step × 6 steps.
+
+### Step 3: Inverse Channel — Bayesian Diagnosis
+
+Diagnosis = inverse problem: given body surface observation *E*, infer organ state *H*:
+
+$$P(H|E) = \frac{P(E|H) \cdot P(H)}{P(E)}$$
+
+For a single sensing point (e.g., second metacarpal holographic point) with sensitivity 0.75, specificity 0.85, prior 5%:
+
+$$P(H^+|E^+) = \frac{0.75 \times 0.05}{0.75 \times 0.05 + 0.15 \times 0.95} = 20.8\%$$
+
+One point lifts 5% → 20.8%. Weak alone. But multiple independent points compound:
+
+### Step 4: Multi-Channel Fusion → 97.3%
+
+| Positive sensors (out of 5) | Posterior P(disease) | Bayes factor | Evidence strength |
+|:---:|:---:|:---:|:---|
+| 0/5 | 1.0% | — | Excluded |
+| 1/5 | 15.7% | 3.5× | Weak |
+| 2/5 | 39.5% | 12.3× | Moderate |
+| 3/5 | 68.1% | 42.8× | Strong |
+| 4/5 | 87.5% | 150.1× | Very strong |
+| 5/5 | 95.8% | 525.3× | Decisive |
+
+Overall accuracy across all patients = **97.3%** (verified by Monte Carlo simulation, see below).
+
+### Step 5: Information-Theoretic Ceiling
+
+Channel capacity for 5 independent sensors with ρ≈0.4:
+
+$$C_{total} \approx 0.71 \text{ bits} \quad → \quad P_{max} = \frac{1}{1 + 2^{-0.71}} \approx 96\%$$
+
+**This is why 5 sensors and not 50.** The information saturates — adding the 6th sensor adds <0.5% accuracy.
+
+---
+
+## Monte Carlo Verification — 500,000 Virtual Patients
+
+> Code: [`technical/F-zhang-yingqing-holographic-biology/simulations/monte_carlo_8.5.py`](./technical/F-zhang-yingqing-holographic-biology/simulations/monte_carlo_8.5.py)
+> Full results: [`business-plan/8.5-monte-carlo-simulation.md`](./business-plan/8.5-monte-carlo-simulation.md)
+
+Standard configuration: 5 sensors, sensitivity (0.68-0.75), specificity (0.78-0.85), prior 5%, 500K patients.
+
+| Metric | Result | Clinical meaning |
+|--------|--------|-----------------|
+| **Accuracy** | **97.3%** | ~97 of 100 correct |
+| Precision | 85.6% | Of positives diagnosed, 85.6% truly sick |
+| Recall | 55.2% | Catches ~55% of actual patients |
+| F1 | 67.1% | Balance of precision/recall |
+| Specificity | 99.8% | Almost no false alarms in healthy people |
+
+**Key findings from sensitivity analysis:**
+
+1. **Sensor quality > sensor quantity**: Upgrading from "standard" (sens 0.7) to "good" (sens 0.8) nearly doubles recall (52.7% → 94.3%)
+2. **Moderate correlation helps**: ρ=0.3 gives 98.7% accuracy (not 97.3%) — real-world sensor correlations are beneficial, not harmful
+3. **Saturation at 5-7 sensors**: Beyond 7, marginal gain < 0.3% per sensor
+4. **Threshold tuning matters**: Lowering decision threshold from 0.5 to 0.3 raises recall to 69% at only 0.6% accuracy cost
+
+---
+
+## Key Concept: "Bounded Difference" (有限差异)
+
+> The most important theoretical refinement introduced during framework development.
+
+Every cell carries identical DNA, but after ~10¹⁶ cell divisions from zygote to adult, each cell accumulates **a finite, bounded set of somatic mutations and epigenetic modifications**. This "bounded difference" is:
+
+- **Not noise** — it's a record of each cell's unique developmental history
+- **The reason different body regions serve as specialized sensors**: tongue cells' mutation profile differs from ear cartilage cells', making each region sensitive to different organ systems
+- **The source of diagnostic error rates**: bounded difference is the "inherent noise" that caps diagnostic precision below 100%
+- **The reason for temporal re-examination**: random components of bounded difference average out over multiple observations → 3 checkups raise accuracy from 97.3% to 99.2%
+
+**Paradigm shift**: DNA copy "errors" are not bugs — they're features. They're the information substrate that makes each body region a distinct diagnostic sensor.
+
+---
+
+## Existing Scientific Evidence
+
+The framework's core claims are aligned with active mainstream research:
+
+| Claim | Supporting Evidence | Strength |
+|-------|-------------------|----------|
+| Tongue/pulse signs correlate with molecular states | Taipei VGH NCT03935373: simultaneous DNA sequencing + tongue/pulse diagnosis in Sjögren's syndrome | ★★★★☆ |
+| TCM syndrome differentiation = dimensionality reduction | *Frontiers in Medicine*: models "Zheng" as inference from high-dimensional observation to low-dimensional state | ★★★★★ |
+| "Chinmedomics" builds syndrome–metabolite maps | *Chinese Medicine*: LC-MS metabolite profiles map to specific TCM syndromes | ★★★★☆ |
+| TCM constitution correlates with genetic variants | China Medical University NCT04434924: hypertension constitution–gene association study | ★★★☆☆ |
+| AI-learned symptom–herb maps align with protein networks | arXiv 2025 preprint: learned embeddings consistent with PPI networks | ★★★☆☆ |
+| "TCM Phenomics" formalizes syndromes as clinical phenotypes | Multiple publications: "Zheng" redefined as genotype→phenotype mapping | ★★★★☆ |
+
+**Bottom line**: Each pillar of this framework is independently testable, and multiple research groups worldwide are already generating supporting data — they just haven't been unified under one mathematical framework yet.
+
+---
+
+## Runnable Code
+
+### 1. Monte Carlo Simulation
+
+```bash
+cd technical/F-zhang-yingqing-holographic-biology/simulations/
+python monte_carlo_8.5.py
+# → Generates 5 figures + prints accuracy/precision/recall tables
+# → Requires: numpy, matplotlib
+```
+
+### 2. HoloAgent Prototype
+
+```bash
+cd business-plan/
+python holo_agent_prototype.py
+# → Runs HAIS self-check, demo Translator + Proofreader agents
+# → Requires: OpenClaw CLI (or modify _call_llm for your LLM)
+```
+
+HoloAgent is a **single-file <200-line Python implementation** of the HAIS (Holographic Agent Information System):
+
+- 5-segment knowledge seed (identity / capability / boundary / voice / escalation)
+- 3 required APIs: `act()` / `observe()` / `reflect()`
+- 4 extension APIs: `escalate()` / `remember()` / `forget()` / `handoff()`
+- API count conservation ≤ 7 (second metacarpal segment principle)
+
+---
+
+## Core Concepts Glossary
 
 | Term | Definition |
 |------|-----------|
-| **meta-DNA (元DNA)** | The core concept — not a physical molecule, but a formal name for the ubiquitous **part-whole information relationship** in biology. Physical DNA is the carrier (double helix); meta-DNA is the *information relationship* (which local part maps to which whole). |
-| **Five Independent Sensing Quantities (五个独立感知量)** | Five diagnostically independent observational dimensions (tongue, pulse, ear, second metacarpal, face). Their information gain saturates at 97.3% Bayesian posterior — a falsifiable prediction. |
-| **μ=10⁻⁹** | The first principle: DNA polymerase error rate, the physical floor of biological information fidelity. |
-| **Forward-Inverse Framework** | Gene→Body (forward developmental mapping) ↔ Body surface→Gene (inverse Bayesian inference). The bidirectional information channel. |
+| **μ=10⁻⁹** | DNA polymerase error rate — the physical starting point. Not a claim, a measured constant. |
+| **meta-DNA (元DNA)** | Not a molecule. The formal name for the universal *part-whole information relationship* in biology. Physical DNA is the carrier; meta-DNA is the relationship. |
+| **Bounded Difference (有限差异)** | Each cell's finite, bounded set of somatic mutations and epigenetic marks accumulated over development. Makes each body region a specialized diagnostic sensor. |
+| **Forward-Inverse Framework** | Gene→Body (developmental mapping) ↔ Body surface→Gene state (Bayesian inference). Two directions, one channel. |
+| **Five Independent Sensing Quantities** | Five diagnostically independent observation channels (tongue, pulse, ear, second metacarpal, face). Information gain saturates at 97.3% — a falsifiable prediction. |
+| **97.3% Accuracy Bound** | Theoretical ceiling for 5-sensor Bayesian fusion. Verified by 500K-patient Monte Carlo simulation. Not "proven effective" — it's "how effective the theory predicts, if the theory holds." |
+
+---
+
+## Four Cornerstones
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                Four Cornerstones                             │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  I. ORIGIN                                                  │
+│     μ = 10⁻⁹ / base / generation                            │
+│     DNA polymerase intrinsic error rate                     │
+│     → The physical floor of biological information          │
+│                                                             │
+│  II. FORWARD (Gene → Body)                                  │
+│      Selection(10⁻⁵) → Control(10⁻⁷) → Error(10⁻⁹)          │
+│      Body = F(Genome; μ, N, ε)                             │
+│      → Three-layer error correction + developmental map     │
+│                                                             │
+│  III. INVERSE (Body surface → Gene state)                   │
+│       P(Genome|Body) = P(Body|Genome)·P(Genome)/P(Body)     │
+│       → Bayesian posterior inference from surface signs     │
+│                                                             │
+│  IV. ACCURACY BOUND                                         │
+│      5 independent sensors → 97.3% posterior                │
+│      3 serial re-examinations → 99.2%                       │
+│      → Falsifiable, testable, engineering-ready             │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
 ## Project Structure
 
 ```
-├── business-plan/          — Monograph (8 vols) + business plan + engineering + courses
-│   ├── 0.0~0.94           Main narrative (Gibbon style, global holographic thought history)
-│   ├── 4.x                Business plan / HoloAgent / 30-episode course
-│   ├── 5.x~6.x            Knowledge expansion / Physics foundations
-│   ├── 7.x                Clinical applications (63 therapies, AI Agent architecture)
-│   ├── 8.0~8.45           Core framework (Bayesian math, HoloScan 2.0 engineering)
-│   └── holo_agent_*.py    HoloAgent prototype code
-├── technical/              — Technical research & deep dives
+├── business-plan/              Monograph (8 vols) + engineering + courses
+│   ├── 0.0–0.94               Global holographic thought history (Gibbon style)
+│   ├── 4.x                    Business plan / HoloAgent / 30-episode course
+│   ├── 5.x–6.x                Knowledge expansion / Physics foundations
+│   ├── 7.x                    Clinical applications (63 therapies, AI architecture)
+│   ├── 8.0–8.45               ★ Core framework (Bayesian math, HoloScan engineering)
+│   │   ├── 8.0                Core forward-inverse framework manifesto
+│   │   ├── 8.1                ★ Bayesian gene-error foundation (full derivation)
+│   │   ├── 8.2                Developmental holographic mapping
+│   │   ├── 8.3                BCI comparison (invasive vs non-invasive)
+│   │   ├── 8.4                Multimodal sensor fusion
+│   │   ├── 8.5                ★ Monte Carlo simulation (500K patients)
+│   │   └── 8.6–8.8            Time-series / sensor engineering / four diagnostics
+│   └── holo_agent_prototype.py  ★ HoloAgent runnable code (<200 lines)
+├── technical/                  Technical research
 │   └── F-zhang-yingqing-holographic-biology/
-│       ├── 5.x            EEG / Tongue / Pulse diagnosis
-│       ├── 6.x            Physics foundations (DNA → organoids, 6 papers)
-│       ├── 8.x            Mathematical foundations (8 papers)
-│       └── simulations/   Monte Carlo simulation
-├── sourcing/               — References & source materials
-└── README.md               — This file
+│       ├── review-draft.md    ★ Literature review v2 (5 figs, 5300 words)
+│       ├─��� 5.x–6.x            EEG / tongue / pulse / physics foundations
+│       ├── 8.x                Mathematical foundations (8 papers)
+│       └── simulations/       ★ Monte Carlo code + figures
+├── sourcing/                   References
+└── README.md                   You are here
 ```
+
+★ = Start here
 
 ---
 
-## Quick Navigation
+## Suggested Reading Order
 
-| Document | Description |
-|----------|-------------|
-| [`business-plan/8.0-core-forward-inverse-framework.md`](./business-plan/8.0-core-forward-inverse-framework.md) | 🏛 Core framework manifesto |
-| [`business-plan/8.1-bayesian-gene-error-foundation.md`](./business-plan/8.1-bayesian-gene-error-foundation.md) | 📐 Bayesian mathematics |
-| `technical/F-zhang-yingqing-holographic-biology/review-draft.md` | 📝 Literature review (5 figs, 5300 words) |
-| `technical/F-zhang-yingqing-holographic-biology/scope-note.md` | 📋 Detailed project scope |
+**For scientists / researchers:**
+1. This README → 2. [8.1 Bayesian foundation](./business-plan/8.1-bayesian-gene-error-foundation.md) → 3. [8.5 Monte Carlo results](./business-plan/8.5-monte-carlo-simulation.md) → 4. [Review draft](./technical/F-zhang-yingqing-holographic-biology/review-draft.md)
+
+**For engineers / builders:**
+1. This README → 2. [8.4 Sensor fusion](./business-plan/8.4-multimodal-sensor-fusion.md) → 3. [HoloAgent prototype code](./business-plan/holo_agent_prototype.py) → 4. [8.1 Bayesian math](./business-plan/8.1-bayesian-gene-error-foundation.md)
+
+**For general readers:**
+1. This README → 2. [8.0 Framework overview](./business-plan/8.0-core-forward-inverse-framework.md) → 3. [Concept map](./technical/F-zhang-yingqing-holographic-biology/concept-map.md)
+
+---
+
+## Relationship to Prior Work
+
+| Prior theory | Relationship | Difference |
+|-------------|-------------|------------|
+| Zhang Yingqing's ECIWO (1981) | Empirical subset — "local reflects whole" observation | laimengjun adds the physical starting point (μ=10⁻⁹) and Bayesian quantification |
+| Schrödinger's aperiodic crystal (1944) | Western math subset — information storage in DNA | laimengjun extends from storage to *diagnostic inference* |
+| Bohm's implicate order (1980) | Philosophical parallel — holomovement | laimengjun makes it mathematically operational |
+| Pribram's holographic brain (1971) | Cognitive parallel — neural holography | laimengjun applies to entire body, not just brain |
+| Mandelbrot fractals (1982) | Mathematical parallel — self-similarity | laimengjun grounds fractals in DNA mechanics |
+
+All are subsets of the four-cornerstone system. None individually covers the full forward-inverse chain from μ to clinical accuracy.
 
 ---
 
 ## Citation
 
-If you use this work, please cite:
-
-> Lai MJ (Laimengjun). *Holographic Biology: From μ=10⁻⁹ to Bayesian Clinical Accuracy.* 2026. CC BY 4.0.
-
-BibTeX:
 ```bibtex
 @misc{laimengjun2026holobio,
-  author = {Lai, Mengjun (Laimengjun@Amoy)},
-  title = {Holographic Biology: From {$\mu=10^{-9}$} to Bayesian Clinical Accuracy},
-  year = {2026},
+  author       = {Lai, Mengjun},
+  title        = {Holographic Biology: From {$\mu=10^{-9}$} to Bayesian Clinical Accuracy},
+  year         = {2026},
   howpublished = {GitHub repository},
-  note = {CC BY 4.0}
+  url          = {https://github.com/laimengjun/holographic-biology},
+  note         = {CC BY 4.0}
 }
 ```
 
@@ -108,101 +286,8 @@ BibTeX:
 
 ## License
 
-This work is licensed under **CC BY 4.0 (Creative Commons Attribution 4.0 International)**.
-
-- ✅ Free to copy, distribute, modify, and use commercially
-- ✅ Attribution required: **赖孟峻 (Laimengjun@Amoy)**
-- ✅ Full license text at [LICENSE](./LICENSE)
+**CC BY 4.0** — Free to copy, distribute, modify, and use commercially. Attribution required: **赖孟峻 (Laimengjun@Amoy)**
 
 ---
 
----
-
-# 全息生物学 / Holographic Biology
-
----
-
-## 核心框架
-
-laimengjun holo-bio 理论为全球传统医学的诊断方法提供了**统一的科学衡量标准**。无论是中医的舌诊脉诊、阿育吠陀的 Marma 点评估、藏医三因诊断、阿拉伯 Unani 脉诊、欧洲虹膜诊断，还是非洲和原住民的诊疗实践，都可以在这个框架下回答同一个问题：**"从局部观察到整体判断，信息通道的保真度有多高？精度上限在哪里？"**这种理论使得从局部消息到整体的观察既**行之有效**——因为信息的正向传递通道（基因组→体表）有 μ=10⁻⁹ 的物理保真度保证；又可以**科学衡量其精确性**——因为反向推断通道（体表→基因状态）的精度由贝叶斯-信息论框架给出严格上限。传统医学的经验不再是"信则灵"的玄学，也不是"不可证伪"的伪科学，而是**既有临床价值又有数理基础**的实践科学。
-
-laimengjun holo-bio 理论是**全息领域的统一框架**——它整合了东方临床经验（中医耳穴/舌诊/脉诊 2000年、阿育吠陀 Marma 点 3000年、藏医三因诊断）、西方数理科学（Schrödinger信息存储、Bohm隐缠序、Pribram全息脑、Mandelbrot分形、Prigogine耗散结构、Kauffman自组织、Shannon信息论），以及跨文化传统医学（希腊罗马、阿拉伯、美洲/非洲/大洋洲民族医学），用 μ=10⁻⁹ 这一统一的物理起点解释了它们的共同基础，以 μ=10⁻⁹/碱基/代 为第一性原理起点：
-
-1. **起点** — DNA 聚合酶固有错误率，生物信息传递的物理下限
-2. **正向过程** — 选择(10⁻⁵)→控制(10⁻⁷)→失误(10⁻⁹) 三层纠错及发育全息映射
-3. **反向过程** — 贝叶斯 P(Genome|Body) 从体表体征定量推断基因状态
-4. **精度上限** — 五个独立感知量融合 → 97.3%，时序复诊 → 99.2%
-
-**元DNA（meta-DNA）**：本理论的核心概念。它不是一个新物质实体，而是对生物学普遍存在的**局部-整体信息对应关系**的形式化命名。物理DNA是物质载体（双螺旋分子），元DNA是信息关系（哪个局部对应哪些整体）。其物理基础是DNA复制保真度（μ=10⁻⁹），其数学形式是贝叶斯-信息论双向推理框架。
-
-思想渊源包括薛定谔（Schrödinger, 1944）的非周期性晶体、Bohm（1980）的隐缠序、Pribram（1971）的全息脑模型、Mandelbrot（1982）的分形几何、Prigogine（1977）的耗散结构、Kauffman（1993）的自组织理论——这些西方数理框架分别从信息、物理、认知、数学、热力学和复杂系统角度为元DNA提供了独立的理论平行。
-
----
-
-## 核心术语标准化
-
-本项目中所有文档应统一使用以下术语：
-
-| 中文术语 | English | 定义 |
-|---------|---------|------|
-| **laimengjun holo-bio 理论** | laimengjun's Holographic Biology | 以 μ=10⁻⁹ 为第一性原理的完整理论框架，包含四基石体系 |
-| **元DNA** | meta-DNA | 理论核心概念：生物体"每个局部包含整体信息"这一现象的原理性命名，非物理分子 |
-| **μ=10⁻⁹** | DNA Polymerase Error Rate | 理论起点：DNA 聚合酶每碱基复制错误率，生物信息传递的物理下限 |
-| **四基石体系** | Four-Cornerstone System | μ起点 → 正向三层纠错 → 反向贝叶斯推理 → 97.3% 精度上限 |
-| **正向-反向推理** | Forward-Inverse Framework | 基因→身体（正向发育映射）与 体表→基因（反向贝叶斯推断）的双向信息通道 |
-| **97.3% 精度上限** | 97.3% Accuracy Bound | 五个独立感知量融合的理论上限（信息增益饱和点），可证伪预测 |
-| **三层纠错** | Three-Layer Error Correction | 选择(10⁻⁵)→控制(10⁻⁷)→失误(10⁻⁹) 的信息保真度层级 |
-
-> **区分原则**：laimengjun 原始理论（1981-2004）是经验层面的东方临床发现；**laimengjun holo-bio 框架（2026）** 是从 μ=10⁻⁹ 出发的正向-反向数理框架。两者的关系如同"观察到苹果下落"（经验）vs "万有引力定律"（数理）。
-
-既往理论均为该框架的子集：
-- **laimengjun元DNA** → 东方临床子集（经验层面）
-- **西方分形/自组织/信息论** → 西方数理子集
-- **跨文化传统医学** → 历史古老基础
-
----
-
-## 目录结构
-
-```
-├── business-plan/          — 专著（8 卷）+ 商业计划 + 工程文档 + 课程
-│   ├── 0.0~0.94           专著主线（Gibbon 风格，东西方全息思想史）
-│   ├── 4.x                商业规划 / HoloAgent / 30 集课程
-│   ├── 5.x~6.x            知识扩展 / 物理学基础
-│   ├── 7.x                临床应用扩展（63 疗法、AI Agent 架构）
-│   ├── 8.0~8.45           核心框架（贝叶斯数学、HoloScan 2.0 工程）
-│   └── holo_agent_*.py    HoloAgent 原型代码
-├── technical/              — 技术研究与深度文档
-│   └── F-zhang-yingqing-holographic-biology/
-│       ├── 5.x EEG/舌诊/脉诊
-│       ├── 6.x 物理学基础（DNA→类器官六篇）
-│       ├── 8.x 数学基础（8 篇）
-│       └── simulations/   蒙特卡洛模拟
-├── sourcing/               — 参考文献与原始资料
-└── README.md               — 本文件
-```
-
----
-
-## 关键文档入口
-
-| 文档 | 说明 |
-|------|------|
-| [`business-plan/8.0-core-forward-inverse-framework.md`](./business-plan/8.0-core-forward-inverse-framework.md) | 🏛 核心纲领 |
-| [`business-plan/8.1-bayesian-gene-error-foundation.md`](./business-plan/8.1-bayesian-gene-error-foundation.md) | 📐 贝叶斯数学基础 |
-| `technical/F-zhang-yingqing-holographic-biology/review-draft.md` | 📝 综述 v2（5 图，5300 字） |
-| `technical/F-zhang-yingqing-holographic-biology/scope-note.md` | 📋 详细范围说明 |
-
----
-
-## 许可
-
-本作品采用 **CC BY 4.0（创作共用署名 4.0 国际许可协议）**。
-
-- ✅ 任何人可以自由复制、分发、修改、商用
-- ✅ 必须保留作者署名：**赖孟峻 (Laimengjun@Amoy)**
-- ✅ 完整许可文本见 [LICENSE](./LICENSE)
-
----
-
-*作者 / Author: 赖孟峻 (Laimengjun@Amoy)*
+*Author: 赖孟峻 (Laimengjun@Amoy) · 2026*
