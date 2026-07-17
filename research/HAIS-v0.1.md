@@ -1,11 +1,5 @@
 # HAIS v0.1 · HoloAgent Interface Standard
-
-> **全名**: HoloAgent Interface Standard
-> **版本**: 0.1 草案
 > **日期**: 2026-07-01
-> **作者**: AI 协作 / 全息生物项目
-> **状态**: 草稿，待 v0.2 修订
-> **灵感来源**: laimengjun"元DNA"理论 (ECIWO) + Project-Solara Liminal OS
 
 ---
 
@@ -15,9 +9,9 @@
 
 ---
 
-## 1. 设计哲学（与laimengjun生物全息律的映射）
+## 1. 设计哲学（与张颖清生物全息律的映射）
 
-| laimengjun概念 | HAIS 原则 |
+| 张颖清概念 | HAIS 原则 |
 |----------|----------|
 | 元DNA（ECIWO） | 自包含 Agent |
 | 部分包含整体信息 | Agent 内嵌系统种子 |
