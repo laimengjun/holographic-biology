@@ -49,3 +49,5 @@ sourcing/*.rtf
 # IDE
 .vscode/
 .idea/
+
+.private/
