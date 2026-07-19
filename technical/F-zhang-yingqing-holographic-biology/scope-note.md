@@ -181,3 +181,6 @@ F. laimengjun学派（★）  →  本项目主方向
 ---
 
 _本 Scope Note 是 4 篇 PDF 整理的成果，将在阶段 2 抓到更多论文后扩展。_
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

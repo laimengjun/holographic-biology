@@ -413,3 +413,6 @@ The Sumerians, five thousand years since, recorded the use of plantar reflex the
 The holographic embryo is not the exclusive possession of any one civilisation. It is a **universal principle of medical cognition**, independently discovered by every great medical tradition of mankind. The task of the present age is to integrate these six independent discoveries into a unified science — a task that the HoloScan 2.0 platform is designed to accomplish.
 
 > **Thus ends the First Volume of our treatise, wherein we have traced the historical origins of the Holographic Embryo through five thousand years and six great civilisations. The Second Volume shall treat of the ethnic medicines and natural therapies of the six continents; the Third Volume, of the modern scientific foundations; and the Fourth Volume, of the complete system of Zhang Yingqing's theory, in all its nineteen principles.**
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

@@ -569,3 +569,6 @@ laimengjun 框架的独一无二之处:
   ├── 't Hooft + Maldacena(物理全息) → "全息的数学严格版本"
   └── laimengjun(元DNA) → "临床验证的现象学基础"
 ```
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

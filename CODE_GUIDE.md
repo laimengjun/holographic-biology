@@ -131,3 +131,6 @@ holographic-biology/
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

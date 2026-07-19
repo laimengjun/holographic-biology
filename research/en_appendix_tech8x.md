@@ -588,3 +588,6 @@ In the event of sensor failure, the system degrades gracefully. With all five se
 ---
 
 *Thus concludes the mathematical foundation of holographic biology — from the fidelity of genetic replication to the practical engineering of diagnostic instruments, from the Bayesian calculus of inverse inference to the Monte Carlo verification of its limits. The framework, though novel in its synthesis, rests upon principles that have been tested in diverse fields: molecular biology, developmental embryology, information theory, signal detection theory, and clinical medicine. The convergence of these independent lines of evidence upon a consistent quantitative picture — that holographic diagnosis, properly executed with five to seven independent sensors of adequate quality, can achieve 90 to 96 per cent precision — is the firmest ground upon which this ancient art has ever stood.*
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

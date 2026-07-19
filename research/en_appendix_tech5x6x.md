@@ -79,3 +79,6 @@ The implications for the HoloScan 2.0 are profound. Organoids from a patient's o
 ---
 
 *End of the Technical Appendix*
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

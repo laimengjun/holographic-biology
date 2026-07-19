@@ -272,3 +272,6 @@ final_text = agent_b.act(text_en)  # Agent B 处理校对
 ---
 
 _本草案是阶段 4.3 的实施起点。下一步：写最小原型 → 对比 LangChain → 集成 OpenClaw → 走通 wechat 通道。_
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

@@ -188,3 +188,6 @@ With this chapter, Volume Seven — Clinical Application and Validation — is c
 
 *— End of the English Translation of Volumes Six and Seven —*
 *Translated from the Chinese original, adapting the analytical period style of Edward Gibbon's* Decline and Fall of the Roman Empire *to the technical subject matter of holographic medicine and artificial intelligence engineering.*
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

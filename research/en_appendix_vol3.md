@@ -517,3 +517,6 @@ The five principles of the modernisation of Chinese herbal medicine — qualitat
 Thus concludes Volume the Third of the treatise *The Holographic Embryo: A Medical History Traversing Five Thousand Years*. Seven chapters have been presented, establishing the foundations of the holographic theory in neuroanatomy, molecular biology, embryology, information theory, physics, the neuro-endocrine-immune network, and biokinetics with pharmacokinetics. The reader who has followed the argument to this point will perceive that the holographic embryo is not a philosophical speculation, but a scientific reality supported by the convergent evidence of half a dozen independent disciplines. The part contains the whole; the local reflects the global; the microsystem encodes the body. This is the truth that the ancient physicians of China perceived by instinct, that Zhang Yingqing articulated in the twentieth century, and that the science of the twenty-first century has confirmed.
 
 *Here endeth Volume the Third.*
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

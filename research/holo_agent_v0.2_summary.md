@@ -165,3 +165,6 @@ prompt = f"""我是 {self.name}。{self.seed.identity}
 ---
 
 _本报告是 v0.2.6 的完整总结。HoloAgent 框架已达到生产级标准，可作为 OpenClaw 子代理的运行时基础设施。_
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

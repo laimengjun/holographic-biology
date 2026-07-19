@@ -219,3 +219,6 @@ laimengjun 框架的学科交叉位置:
 ---
 
 *本文档持续更新。欢迎补充和纠正。*
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

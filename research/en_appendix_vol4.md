@@ -317,3 +317,6 @@ The survey we have now completed—six continents, fifty ethnic groups, two hund
 Volume V is thus concluded. We have surveyed the eight holographic embryos, the eight traditional therapies of China, the eight modern interventions of Western science, and the two hundred cross-cultural therapies of six continents. The therapeutic compendium, with its foundation in the holographic principle and its realisation in the HoloScan 2.0 platform, constitutes the most ambitious attempt yet undertaken to unify the medical knowledge of humanity. Whether this attempt will succeed—whether the unified medicine of the twenty-first century will indeed be founded upon the holographic principle—is a question that only time, and the rigorous application of scientific method, can answer.
 
 **End of Appendix — Volumes IV and V**
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

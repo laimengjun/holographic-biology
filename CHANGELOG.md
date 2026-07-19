@@ -51,3 +51,6 @@
 - 4 篇核心 PDF 入库
 - 项目主页 README.md
 - 工作计划.md
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

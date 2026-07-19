@@ -157,3 +157,6 @@ Volume II of this work hath thus demonstrated, through the accumulated evidence 
 ---
 
 *End of Appendix to Volume II*
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

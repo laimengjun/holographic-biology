@@ -70,3 +70,6 @@ The new Law would not only elucidate the sound scientific basis of TCM but would
 | **科普/国际化** | 本篇（健康杂志英文专栏） |
 
 → 这一篇是**张颖清学派走向国际/大众的科普出口**，是连接"理论 ↔ 临床 ↔ 公众"的桥梁文献。
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0

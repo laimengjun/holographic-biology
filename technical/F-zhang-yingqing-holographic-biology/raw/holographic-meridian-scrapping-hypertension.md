@@ -459,3 +459,6 @@ py based on bibliometrics［J］. Chin Nurs Res， 2019，
 者可在其他媒体再次发表。
 ·
 ·5
+---
+
+> © laimengjun@amoy 2026 — CC BY 4.0
