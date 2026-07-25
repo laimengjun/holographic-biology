@@ -1,56 +1,73 @@
-# Changelog
+# CHANGELOG
 
-## v2.0 (2026-07-11)
+## v2.0 (重构版 · 2026-07-25)
 
-### Added
-- **8.x 数学基础系列** (7 篇新文档):
-  - 8.1 贝叶斯全息理论（基因错误率→诊断精度）
-  - 8.2 发育全息映射（Hox基因→体表对应）
-  - 8.3 BCI侵入vs非侵入精度对比
-  - 8.4 多模态传感器贝叶斯融合策略
-  - 8.5 蒙特卡洛仿真（50万患者验证 + 5张图）
-  - 8.6 时序信号与非线性动力学分析
-  - 8.7 传感器工程设计（BOM<¥5,000）
-- PDF 重生：加入 8.x 系列, 9.6MB
-- Git 项目化初始化
+### 重大变更
 
-## v1.5 (2026-07-03)
+**框架重构: 张颖清全息胚 → Rosenberg Holobiont/Hologenome**
 
-### Added
-- **6.x 物理学基础系列** 完成: 6篇（DNA/Shannon/神经节段/HoloScan 2.0/突变/类器官）
-- **7.x 应用扩展系列** 完成: 6篇（总览+63疗法+现代医学+跨文化+前沿+AI Agent）
-- 1000 页专著 40+ 章节完成
-- PDF: compendium-1000p-monograph.pdf (11.6MB), business-plan-book.pdf (8.2MB)
+原框架以张颖清（1981）的生物全息律为核心，本版本将其替换为 Rosenberg & Zilber-Rosenberg（2007）的全息基因组理论（Nature Reviews Microbiology, 1000+ 引用）。
 
-## v1.0 (2026-07-02)
+**变更原因**:
+- 张颖清全息胚被主流生物学界拒绝，无法在同行评审期刊发表
+- Holobiont/Hologenome 是经过验证的学术概念，有 HMP/MetaHIT/UKBB 等大型队列支撑
+- 数学框架（μ=10⁻⁹ → 贝叶斯 → 多参数融合）保持兼容
 
-### Added
-- **5.x 知识扩展系列**: EEG 脑机接口 + 舌诊 + 脉诊
-- 综述 v2: 5 张图嵌入, 30.8KB, 5300 字
-- HoloAgent v0.2.6 生产化完成 (Role adoption 完美)
-- HAIS v0.1 标准 (5段种子 + 7 API)
-- 30 集短视频课程 (设计+脚本+旁白+提示词+工具链)
-- PDF 初版: 87页, 3.94 MB
+### 结构变更
 
-## v0.5 (2026-07-01)
+| 文件 | 状态 | 说明 |
+|------|------|------|
+| `README.md` | 🔄 重写 | 从17现象叙事改为Holobiont中心叙事 |
+| `research/0.0-holobiont-foundation.md` | ➕ 新增 | 替代原0.0-dual-source-confluence.md |
+| `research/8.0-forward-inverse-framework.md` | 🔄 重写 | 替代原8.0-core-forward-inverse-framework.md |
+| `research/8.1-bayesian-foundation.md` | 🔄 重写 | 传感器参数从中医→组学 |
+| `research/8.4-multimodal-sensor-fusion.md` | 🔄 重写 | 5诊→5组学传感器 |
+| `sourcing/holobiont-bibliography.md` | ➕ 新增 | Holobiont核心文献 |
+| `sourcing/reconstruction-summary.md` | ➕ 新增 | 变更说明 |
+| `technical/00-方向澄清/` | 🔄 更新 | HIB vs 旧框架澄清 |
+| `technical/F-zhang-yingqing-holographic-biology/` | ⬇️ 降级 | 移至sourcing/historical/ |
 
-### Added
-- 综述初稿: 4500 字
-- HoloAgent 原型 v0.1 (200 行 Python)
-- HAIS v0.1 草案
-- 科普文章
-- 4 篇 PDF 阅读笔记完成
-- 6 张 Mermaid 概念图
-- Scope Note 完成
+### 核心变更项
 
-## v0.1 (2026-06-30)
+1. **核心理论**: 张颖清生物全息律 → Rosenberg 全息基因组理论
+2. **证据基础**: 586,097 例非双盲病历 → HMP/MetaHIT/UKBB 大规模队列
+3. **"局部"定义**: 第二掌骨穴位/耳穴/舌象 → 肠道/口腔/皮肤微生物组
+4. **传感器**: 中医望闻问切 → 16S/WGS/代谢组/转录组
+5. **张颖清位置**: 核心创始人 → 历史前驱（降级）
+6. **数学框架**: 不变（μ=10⁻⁹ + 贝叶斯公式 + 多参数融合）
+7. **精度上限**: ~97% 数值保留，推导基础从"7穴位"换为"5组学饱和"
+8. **商业路径**: HoloScan硬件 (¥5,000) → 标准组学 + SaaS
 
-### Added
-- 项目初始化: `D:\obsidian\Holographic-Biology\`
-- 方向锁定: F laimengjun"全息生物学"
-- 4 篇核心 PDF 入库
-- 项目主页 README.md
-- 工作计划.md
+### 已删除
+
+- `research/0.0-dual-source-confluence.md` — 双源汇流叙事（以张颖清为中心）
+- `research/8.0-core-forward-inverse-framework.md` — 旧版四基石
+- `research/8.1-bayesian-gene-error-foundation.md` — 旧版传感器参数
+- `README.md` 中关于17现象和张颖清的核心论证部分
+
+### 新增文件
+
+- `research/0.0-holobiont-foundation.md` — 共生体理论根基
+- `research/8.0-forward-inverse-framework.md` — HIB版正向-反向框架
+- `research/8.1-bayesian-foundation.md` — HIB版贝叶斯基础
+- `research/8.4-multimodal-sensor-fusion.md` — HIB版多模态融合
+- `sourcing/holobiont-bibliography.md` — Holobiont核心文献
+- `sourcing/reconstruction-summary.md` — 变更总结
+
+### 数学不变性
+
+所有数学推导保持不变:
+- μ=10⁻⁹ → 三层纠错 → 保真度推导
+- P(H|E) = P(E|H)P(H)/P(E) 贝叶斯公式
+- 多参数融合 → 后验提升
+- 信道容量 → 精度上限
+
+仅解释对象从"穴位→脏腑"变为"组学→全息基因组"。
+
 ---
 
-> © laimengjun@amoy 2026 — CC BY 4.0
+## v1.0 (原版 · 2026-07-14)
+
+初始版本，基于张颖清全息胚理论。
+
+> 参见原 CHANGELOG（technical/archived/CHANGELOG-v1.md）
